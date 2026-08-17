@@ -1,0 +1,507 @@
+{
+  "PF2E_AFFLICTION_BA": {
+    "Module": {
+      "Title": "PF2E Affliction Forge: The Black Archive",
+      "Library": "Das Schwarze Archiv",
+      "LibraryDescription": "Seltene und experimentelle Leiden mit Ereignisreaktionen, periodischen Effekten und Nachwirkungen.",
+      "SyncFailed": "Das Schwarze Archiv konnte seine Bibliothek nicht synchronisieren. Siehe Konsole."
+    },
+    "Content": {
+      "ink-between-names": {
+        "Name": "Tinte zwischen den Namen",
+        "Description": "Ein ausgelöschter Name kriecht in die Gedanken seines Lesers und beginnt dort, andere Namen zu verdrängen.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Benommen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Benommen 1. Sprechen blockiert."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "1d6 mentalen Schaden, Benommen 2. Sprechen blockiert; Konzentrationshandlungen: Einfacher Wurf SG 5.",
+          "Gate": "Störung der Konzentration"
+        }
+      },
+      "second-shadow": {
+        "Name": "Der zweite Schatten",
+        "Description": "Ein fremder Schatten hängt sich an das Opfer und flüstert bei jedem neuen Schritt einen Gedanken zu viel.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Verängstigt 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Verängstigt 1. ereignisabhängige Reaktion.",
+          "Reaction1": "Reaktive Manifestation",
+          "Reaction1Effect": "Reaktive Manifestation"
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "1d6 mentalen Schaden, Benommen 1. ereignisabhängige Reaktion.",
+          "Reaction1": "Reaktive Manifestation",
+          "Reaction1Effect": "Reaktive Manifestation"
+        }
+      },
+      "red-thread-parasite": {
+        "Name": "Rotfadenparasit",
+        "Description": "Ein haarfeiner Wurm näht sich durch Blutgefäße und reagiert auf Angst mit schmerzhaften Bewegungen.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Kränkelnd 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Ausgelaugt 1. periodischer Effekt.",
+          "Periodic1": "Wiederkehrende Manifestation",
+          "Periodic1Effect": "Wiederkehrende Manifestation"
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "1d6 mentalen Schaden, Ausgelaugt 1. periodischer Effekt.",
+          "Periodic1": "Wiederkehrende Manifestation",
+          "Periodic1Effect": "Wiederkehrende Manifestation"
+        }
+      },
+      "glass-choir-dust": {
+        "Name": "Glaschorstaub",
+        "Description": "Feinster Kristallstaub bringt im Schädel des Opfers ein unsichtbares Glockenspiel zum Klingen.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Geblendet."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "1d6 mentalen Schaden, Geblendet. periodischer Effekt.",
+          "Periodic1": "Wiederkehrende Manifestation",
+          "Periodic1Effect": "Wiederkehrende Manifestation"
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "2d6 mentalen Schaden, Benommen 1. Konzentrationshandlungen: Einfacher Wurf SG 5; periodischer Effekt.",
+          "Gate": "Störung der Konzentration",
+          "Periodic1": "Wiederkehrende Manifestation",
+          "Periodic1Effect": "Wiederkehrende Manifestation"
+        }
+      },
+      "borrowed-face": {
+        "Name": "Das geliehene Gesicht",
+        "Description": "Der Fluch verschiebt Züge, Stimme und Erinnerung, bis das eigene Gesicht nur noch wie eine geliehene Maske wirkt.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Benommen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Unbeholfen 1, Benommen 1. Nachwirkung kann die Phase überdauern."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Benommen 2. Sprechen blockiert; ereignisabhängige Reaktion; Phasenende: stay.",
+          "Reaction1": "Reaktive Manifestation",
+          "Reaction1Effect": "Reaktive Manifestation"
+        }
+      },
+      "bell-under-skin": {
+        "Name": "Glocke unter der Haut",
+        "Description": "Eine okkulte Infektion lässt einen Ton im Körper entstehen, den nur der Erkrankte hört.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Kränkelnd 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "2d6 mentalen Schaden, Kränkelnd 1. ereignisabhängige Reaktion.",
+          "Reaction1": "Reaktive Manifestation",
+          "Reaction1Effect": "Reaktive Manifestation"
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "2d6 mentalen Schaden, Benommen 1. Konzentrationshandlungen: Einfacher Wurf SG 5; ereignisabhängige Reaktion.",
+          "Gate": "Störung der Konzentration",
+          "Reaction1": "Reaktive Manifestation",
+          "Reaction1Effect": "Reaktive Manifestation"
+        }
+      },
+      "thirteenth-pulse": {
+        "Name": "Der dreizehnte Puls",
+        "Description": "Nach jedem zwölften Herzschlag folgt ein kalter dreizehnter, der nicht zum eigenen Herzen gehört.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Ausgelaugt 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Ausgelaugt 1. ereignisabhängige Reaktion.",
+          "Reaction1": "Reaktive Manifestation",
+          "Reaction1Effect": "Reaktive Manifestation"
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "2d6 Leerschaden, Ausgelaugt 2. ereignisabhängige Reaktion.",
+          "Reaction1": "Reaktive Manifestation",
+          "Reaction1Effect": "Reaktive Manifestation"
+        }
+      },
+      "mirror-fever": {
+        "Name": "Spiegelfieber",
+        "Description": "Reflexionen beginnen einen Augenblick zu spät zu reagieren und ziehen den Körper allmählich in ihren Rhythmus.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Geblendet. numerischer Phasenmodifikator.",
+          "Modifier1": "Phasenmalus"
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Benommen 1, Geblendet. numerischer Phasenmodifikator; Nachwirkung kann die Phase überdauern.",
+          "Modifier1": "Phasenmalus"
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "2d6 mentalen Schaden, Benommen 2. numerischer Phasenmodifikator.",
+          "Modifier1": "Phasenmalus"
+        }
+      },
+      "eclipsed-blood": {
+        "Name": "Verfinstertes Blut",
+        "Description": "Das Blut wird kalt und dunkel, als stünde jeder Tropfen im Schatten einer unsichtbaren Finsternis.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "1d6 anhaltenden Blutungsschaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "1d6 anhaltenden Blutungsschaden, Ausgelaugt 1. Heilung eingeschränkt."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "3d6 Leerschaden, 1d6 anhaltenden Blutungsschaden, Ausgelaugt 1. Heilung eingeschränkt; Zustandsminimum gesperrt."
+        }
+      },
+      "last-door-pollen": {
+        "Name": "Pollen der letzten Tür",
+        "Description": "Diese Sporen lassen im Traum eine Tür erscheinen, die mit jeder Phase ein Stück weiter offensteht.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Benommen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Benommen 1. Konzentrationshandlungen: Einfacher Wurf SG 5; periodischer Effekt.",
+          "Gate": "Störung der Konzentration",
+          "Periodic1": "Wiederkehrende Manifestation",
+          "Periodic1Effect": "Wiederkehrende Manifestation"
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "3d6 mentalen Schaden, Benommen 2. Konzentrationshandlungen: Einfacher Wurf SG 7; periodischer Effekt.",
+          "Gate": "Störung der Konzentration",
+          "Periodic1": "Wiederkehrende Manifestation",
+          "Periodic1Effect": "Wiederkehrende Manifestation"
+        }
+      },
+      "bone-clock": {
+        "Name": "Knochenuhr",
+        "Description": "Der Fluch zwingt Gelenke und Herz in den Takt eines unsichtbaren Uhrwerks.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Verlangsamt 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Verlangsamt 1, Ausgelaugt 1. numerischer Phasenmodifikator.",
+          "Modifier1": "Phasenmalus"
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Verlangsamt 2, Ausgelaugt 1. ereignisabhängige Reaktion; numerischer Phasenmodifikator; Phasenende: stay.",
+          "Modifier1": "Phasenmalus",
+          "Reaction1": "Reaktive Manifestation",
+          "Reaction1Effect": "Reaktive Manifestation"
+        }
+      },
+      "white-room-toxin": {
+        "Name": "Weißraumtoxin",
+        "Description": "Das Gift löscht Geräusche, Farben und schließlich Sprache aus der Wahrnehmung.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Benommen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Benommen 2. Sprechen blockiert; Konzentrationshandlungen: Einfacher Wurf SG 7.",
+          "Gate": "Störung der Konzentration"
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "4d6 mentalen Schaden, Verlangsamt 1, Benommen 2. Sprechen blockiert; Konzentrationshandlungen: Einfacher Wurf SG 9.",
+          "Gate": "Störung der Konzentration"
+        }
+      },
+      "king-in-ashes-mark": {
+        "Name": "Mal des Königs in Asche",
+        "Description": "Ein herrischer Fluch nährt sich von Feuer und verwandelt Schmerz in einen Tribut an einen toten Herrscher.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Verängstigt 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Ausgelaugt 1. ereignisabhängige Reaktion.",
+          "Reaction1": "Reaktive Manifestation",
+          "Reaction1Effect": "Reaktive Manifestation"
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "4d6 Feuerschaden, Ausgelaugt 1, Verdammt 1. ereignisabhängige Reaktion.",
+          "Reaction1": "Reaktive Manifestation",
+          "Reaction1Effect": "Reaktive Manifestation"
+        }
+      },
+      "dream-of-teeth": {
+        "Name": "Traum aus Zähnen",
+        "Description": "Im Schlaf wächst ein endloses Gebiss um den Geist des Opfers und schnappt auch im Wachen weiter.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Verängstigt 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Benommen 1. periodischer Effekt.",
+          "Periodic1": "Wiederkehrende Manifestation",
+          "Periodic1Effect": "Wiederkehrende Manifestation"
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "4d6 mentalen Schaden, Benommen 2. periodischer Effekt; ereignisabhängige Reaktion.",
+          "Periodic1": "Wiederkehrende Manifestation",
+          "Periodic1Effect": "Wiederkehrende Manifestation",
+          "Reaction1": "Reaktive Manifestation",
+          "Reaction1Effect": "Reaktive Manifestation"
+        }
+      },
+      "null-spore": {
+        "Name": "Nullspore",
+        "Description": "Schwarze Sporen lassen Gewebe nicht verfaulen, sondern Stück für Stück aus der Lebenskraft verschwinden.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Kränkelnd 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "3d6 Leerschaden, Ausgelaugt 1. Heilung eingeschränkt; periodischer Effekt.",
+          "Periodic1": "Wiederkehrende Manifestation",
+          "Periodic1Effect": "Wiederkehrende Manifestation"
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "4d6 Leerschaden, Ausgelaugt 2. Heilung eingeschränkt; periodischer Effekt.",
+          "Periodic1": "Wiederkehrende Manifestation",
+          "Periodic1Effect": "Wiederkehrende Manifestation"
+        }
+      },
+      "saints-empty-halo": {
+        "Name": "Leerer Heiligenschein",
+        "Description": "Ein ausgebrannter göttlicher Abdruck lässt Verdammnis noch nach dem Abklingen einer Phase zurück.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Benommen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Verdammt 1, Benommen 1. Nachwirkung kann die Phase überdauern."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "4d6 Geistschaden, Verdammt 2. Sprechen blockiert; Nachwirkung kann die Phase überdauern."
+        }
+      },
+      "archivists-worm": {
+        "Name": "Wurm des Archivars",
+        "Description": "Der Parasit frisst Erinnerungen nicht vollständig, sondern sortiert sie nach einem fremden Katalog.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Benommen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Benommen 1. Sprechen blockiert; periodischer Effekt.",
+          "Periodic1": "Wiederkehrende Manifestation",
+          "Periodic1Effect": "Wiederkehrende Manifestation"
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "4d6 mentalen Schaden, Benommen 2. Sprechen blockiert; periodischer Effekt.",
+          "Periodic1": "Wiederkehrende Manifestation",
+          "Periodic1Effect": "Wiederkehrende Manifestation"
+        }
+      },
+      "starless-venom": {
+        "Name": "Sternenloses Gift",
+        "Description": "Ein seltenes Klingengift, dessen Schwärze selbst im Licht keine Reflexion zeigt.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "4d6 Giftschaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "4d6 Leerschaden, Ausgelaugt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "5d6 Leerschaden, 1d6 anhaltenden Blutungsschaden, Ausgelaugt 1."
+        }
+      },
+      "second-death-oath": {
+        "Name": "Eid des zweiten Todes",
+        "Description": "Ein Schwur an die Toten macht jedes neue Zeichen der Verdammnis zu einer Gelegenheit, den Eid zu brechen oder tiefer zu fallen.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Verdammt 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Verdammt 1, Ausgelaugt 1. ereignisabhängige Reaktion.",
+          "Reaction1": "Reaktive Manifestation",
+          "Reaction1Effect": "Reaktive Manifestation"
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "5d6 Leerschaden, Verdammt 2, Ausgelaugt 1. Zustandsminimum gesperrt; ereignisabhängige Reaktion.",
+          "Reaction1": "Reaktive Manifestation",
+          "Reaction1Effect": "Reaktive Manifestation"
+        }
+      },
+      "memory-cairn": {
+        "Name": "Erinnerungssteinhügel",
+        "Description": "Jede vergessene Erinnerung legt einen unsichtbaren Stein auf das Opfer, bis selbst Bewegung schwer wird.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Benommen 1. numerischer Phasenmodifikator.",
+          "Modifier1": "Phasenmalus"
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Benommen 2. numerischer Phasenmodifikator; Nachwirkung kann die Phase überdauern.",
+          "Modifier1": "Phasenmalus"
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "5d6 mentalen Schaden, Benommen 2. Sprechen blockiert; numerischer Phasenmodifikator.",
+          "Modifier1": "Phasenmalus"
+        }
+      },
+      "world-scar-fever": {
+        "Name": "Weltnarbenfieber",
+        "Description": "Die Krankheit pulsiert im Takt eines Risses zwischen Welten und zieht Kraft aus jedem Herzschlag.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Kränkelnd 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "4d6 Geistschaden, Ausgelaugt 1. periodischer Effekt.",
+          "Periodic1": "Wiederkehrende Manifestation",
+          "Periodic1Effect": "Wiederkehrende Manifestation"
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "5d6 Geistschaden, Ausgelaugt 2. Heilung eingeschränkt; periodischer Effekt.",
+          "Periodic1": "Wiederkehrende Manifestation",
+          "Periodic1Effect": "Wiederkehrende Manifestation"
+        }
+      },
+      "black-sun-contagion": {
+        "Name": "Schwarzsonnenkontagion",
+        "Description": "Ein Licht ohne Helligkeit breitet sich im Körper aus und hinterlässt kalte Schatten in lebendem Gewebe.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Geblendet, Ausgelaugt 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "5d6 Leerschaden, Ausgelaugt 1. periodischer Effekt; Nachwirkung kann die Phase überdauern.",
+          "Periodic1": "Wiederkehrende Manifestation",
+          "Periodic1Effect": "Wiederkehrende Manifestation"
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "6d6 Leerschaden, Ausgelaugt 2, Verdammt 1. Heilung eingeschränkt; periodischer Effekt.",
+          "Periodic1": "Wiederkehrende Manifestation",
+          "Periodic1Effect": "Wiederkehrende Manifestation"
+        }
+      },
+      "unperson-protocol": {
+        "Name": "Protokoll der Unperson",
+        "Description": "Eine arkan-technologische Auslöschung beginnt mit Namen und Stimme und endet bei der Gewissheit, überhaupt zu existieren.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Benommen 1. numerischer Phasenmodifikator.",
+          "Modifier1": "Phasenmalus"
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Benommen 2. Sprechen blockiert; Nachwirkung kann die Phase überdauern."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "6d6 mentalen Schaden, Benommen 2, Verdammt 1. Sprechen blockiert; ereignisabhängige Reaktion; Phasenende: stay.",
+          "Reaction1": "Reaktive Manifestation",
+          "Reaction1Effect": "Reaktive Manifestation"
+        }
+      },
+      "black-archive-seal": {
+        "Name": "Siegel des Schwarzen Archivs",
+        "Description": "Dieses einzigartige Siegel schützt Wissen, indem es den Leser selbst aus der Geschichte zu entfernen versucht.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Benommen 1. periodischer Effekt.",
+          "Periodic1": "Wiederkehrende Manifestation",
+          "Periodic1Effect": "Wiederkehrende Manifestation"
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "5d6 mentalen Schaden, Benommen 2. Sprechen blockiert; Konzentrationshandlungen: Einfacher Wurf SG 9; periodischer Effekt.",
+          "Gate": "Störung der Konzentration",
+          "Periodic1": "Wiederkehrende Manifestation",
+          "Periodic1Effect": "Wiederkehrende Manifestation"
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "6d6 Leerschaden, Verdammt 1, Benommen 2. Heilung eingeschränkt; ereignisabhängige Reaktion; Phasenende: stay.",
+          "Reaction1": "Reaktive Manifestation",
+          "Reaction1Effect": "Reaktive Manifestation"
+        },
+        "Stage4": {
+          "Name": "Phase 4",
+          "Description": "Todeseffekt. Phasenende: end."
+        }
+      }
+    }
+  }
+}

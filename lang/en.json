@@ -1,0 +1,507 @@
+{
+  "PF2E_AFFLICTION_BA": {
+    "Module": {
+      "Title": "PF2E Affliction Forge: The Black Archive",
+      "Library": "The Black Archive",
+      "LibraryDescription": "Rare experimental afflictions with event reactions, periodic effects, and residual consequences.",
+      "SyncFailed": "The Black Archive could not synchronize its library. See console."
+    },
+    "Content": {
+      "ink-between-names": {
+        "Name": "Ink Between Names",
+        "Description": "An erased name crawls into the reader’s thoughts and begins displacing every other name.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "stupefied 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "stupefied 1. speech blocked."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "1d6 mental damage, stupefied 2. speech blocked; concentrate actions: flat check DC 5.",
+          "Gate": "Concentration interference"
+        }
+      },
+      "second-shadow": {
+        "Name": "The Second Shadow",
+        "Description": "A foreign shadow attaches itself to the victim and whispers one thought too many with every new step.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "frightened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "frightened 1. event reaction.",
+          "Reaction1": "Reactive manifestation",
+          "Reaction1Effect": "Reactive manifestation"
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "1d6 mental damage, stupefied 1. event reaction.",
+          "Reaction1": "Reactive manifestation",
+          "Reaction1Effect": "Reactive manifestation"
+        }
+      },
+      "red-thread-parasite": {
+        "Name": "Red-Thread Parasite",
+        "Description": "A hair-thin worm stitches itself through blood vessels and responds to fear with painful movement.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "sickened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "drained 1. periodic effect.",
+          "Periodic1": "Recurring manifestation",
+          "Periodic1Effect": "Recurring manifestation"
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "1d6 mental damage, drained 1. periodic effect.",
+          "Periodic1": "Recurring manifestation",
+          "Periodic1Effect": "Recurring manifestation"
+        }
+      },
+      "glass-choir-dust": {
+        "Name": "Glass Choir Dust",
+        "Description": "Fine crystal dust makes an invisible carillon ring inside the victim’s skull.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "dazzled."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "1d6 mental damage, dazzled. periodic effect.",
+          "Periodic1": "Recurring manifestation",
+          "Periodic1Effect": "Recurring manifestation"
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "2d6 mental damage, stupefied 1. concentrate actions: flat check DC 5; periodic effect.",
+          "Gate": "Concentration interference",
+          "Periodic1": "Recurring manifestation",
+          "Periodic1Effect": "Recurring manifestation"
+        }
+      },
+      "borrowed-face": {
+        "Name": "The Borrowed Face",
+        "Description": "The curse shifts features, voice, and memory until one’s own face feels like a borrowed mask.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "stupefied 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "clumsy 1, stupefied 1. a residual effect can outlast the stage."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "stupefied 2. speech blocked; event reaction; stage expiry: stay.",
+          "Reaction1": "Reactive manifestation",
+          "Reaction1Effect": "Reactive manifestation"
+        }
+      },
+      "bell-under-skin": {
+        "Name": "Bell Beneath the Skin",
+        "Description": "An occult infection creates a tone inside the body that only the infected can hear.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "sickened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "2d6 mental damage, sickened 1. event reaction.",
+          "Reaction1": "Reactive manifestation",
+          "Reaction1Effect": "Reactive manifestation"
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "2d6 mental damage, stupefied 1. concentrate actions: flat check DC 5; event reaction.",
+          "Gate": "Concentration interference",
+          "Reaction1": "Reactive manifestation",
+          "Reaction1Effect": "Reactive manifestation"
+        }
+      },
+      "thirteenth-pulse": {
+        "Name": "The Thirteenth Pulse",
+        "Description": "After every twelfth heartbeat comes a cold thirteenth pulse that belongs to something else.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "drained 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "drained 1. event reaction.",
+          "Reaction1": "Reactive manifestation",
+          "Reaction1Effect": "Reactive manifestation"
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "2d6 void damage, drained 2. event reaction.",
+          "Reaction1": "Reactive manifestation",
+          "Reaction1Effect": "Reactive manifestation"
+        }
+      },
+      "mirror-fever": {
+        "Name": "Mirror Fever",
+        "Description": "Reflections begin reacting a moment too late and gradually drag the body into their rhythm.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "dazzled. numeric stage modifier.",
+          "Modifier1": "Stage penalty"
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "stupefied 1, dazzled. numeric stage modifier; a residual effect can outlast the stage.",
+          "Modifier1": "Stage penalty"
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "2d6 mental damage, stupefied 2. numeric stage modifier.",
+          "Modifier1": "Stage penalty"
+        }
+      },
+      "eclipsed-blood": {
+        "Name": "Eclipsed Blood",
+        "Description": "The blood turns cold and dark, as though every drop stands beneath an unseen eclipse.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "1d6 persistent bleed damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "1d6 persistent bleed damage, drained 1. healing restricted."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "3d6 void damage, 1d6 persistent bleed damage, drained 1. healing restricted; condition minimum locked."
+        }
+      },
+      "last-door-pollen": {
+        "Name": "Last-Door Pollen",
+        "Description": "These spores reveal a door in dreams that opens a little farther with every stage.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "stupefied 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "stupefied 1. concentrate actions: flat check DC 5; periodic effect.",
+          "Gate": "Concentration interference",
+          "Periodic1": "Recurring manifestation",
+          "Periodic1Effect": "Recurring manifestation"
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "3d6 mental damage, stupefied 2. concentrate actions: flat check DC 7; periodic effect.",
+          "Gate": "Concentration interference",
+          "Periodic1": "Recurring manifestation",
+          "Periodic1Effect": "Recurring manifestation"
+        }
+      },
+      "bone-clock": {
+        "Name": "Bone Clock",
+        "Description": "The curse forces joints and heartbeat into the rhythm of an invisible clockwork.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "slowed 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "slowed 1, drained 1. numeric stage modifier.",
+          "Modifier1": "Stage penalty"
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "slowed 2, drained 1. event reaction; numeric stage modifier; stage expiry: stay.",
+          "Modifier1": "Stage penalty",
+          "Reaction1": "Reactive manifestation",
+          "Reaction1Effect": "Reactive manifestation"
+        }
+      },
+      "white-room-toxin": {
+        "Name": "White-Room Toxin",
+        "Description": "The toxin strips sound, color, and eventually speech from perception.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "stupefied 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "stupefied 2. speech blocked; concentrate actions: flat check DC 7.",
+          "Gate": "Concentration interference"
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "4d6 mental damage, slowed 1, stupefied 2. speech blocked; concentrate actions: flat check DC 9.",
+          "Gate": "Concentration interference"
+        }
+      },
+      "king-in-ashes-mark": {
+        "Name": "Mark of the King in Ashes",
+        "Description": "An imperious curse feeds on fire and turns pain into tribute for a dead ruler.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "frightened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "drained 1. event reaction.",
+          "Reaction1": "Reactive manifestation",
+          "Reaction1Effect": "Reactive manifestation"
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "4d6 fire damage, drained 1, doomed 1. event reaction.",
+          "Reaction1": "Reactive manifestation",
+          "Reaction1Effect": "Reactive manifestation"
+        }
+      },
+      "dream-of-teeth": {
+        "Name": "Dream of Teeth",
+        "Description": "In sleep, an endless set of teeth grows around the victim’s mind and keeps biting while awake.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "frightened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "stupefied 1. periodic effect.",
+          "Periodic1": "Recurring manifestation",
+          "Periodic1Effect": "Recurring manifestation"
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "4d6 mental damage, stupefied 2. periodic effect; event reaction.",
+          "Periodic1": "Recurring manifestation",
+          "Periodic1Effect": "Recurring manifestation",
+          "Reaction1": "Reactive manifestation",
+          "Reaction1Effect": "Reactive manifestation"
+        }
+      },
+      "null-spore": {
+        "Name": "Null Spore",
+        "Description": "Black spores do not rot flesh; they erase it piece by piece from the body’s vitality.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "sickened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "3d6 void damage, drained 1. healing restricted; periodic effect.",
+          "Periodic1": "Recurring manifestation",
+          "Periodic1Effect": "Recurring manifestation"
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "4d6 void damage, drained 2. healing restricted; periodic effect.",
+          "Periodic1": "Recurring manifestation",
+          "Periodic1Effect": "Recurring manifestation"
+        }
+      },
+      "saints-empty-halo": {
+        "Name": "Saint’s Empty Halo",
+        "Description": "A burned-out divine imprint leaves doom behind even after a stage has passed.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "stupefied 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "doomed 1, stupefied 1. a residual effect can outlast the stage."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "4d6 spirit damage, doomed 2. speech blocked; a residual effect can outlast the stage."
+        }
+      },
+      "archivists-worm": {
+        "Name": "Archivist’s Worm",
+        "Description": "The parasite does not consume memories completely; it catalogs them according to an alien order.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "stupefied 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "stupefied 1. speech blocked; periodic effect.",
+          "Periodic1": "Recurring manifestation",
+          "Periodic1Effect": "Recurring manifestation"
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "4d6 mental damage, stupefied 2. speech blocked; periodic effect.",
+          "Periodic1": "Recurring manifestation",
+          "Periodic1Effect": "Recurring manifestation"
+        }
+      },
+      "starless-venom": {
+        "Name": "Starless Venom",
+        "Description": "A rare blade venom whose darkness shows no reflection even in bright light.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "4d6 poison damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "4d6 void damage, drained 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "5d6 void damage, 1d6 persistent bleed damage, drained 1."
+        }
+      },
+      "second-death-oath": {
+        "Name": "Oath of the Second Death",
+        "Description": "An oath to the dead turns every new sign of doom into a chance to break the vow or fall deeper.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "doomed 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "doomed 1, drained 1. event reaction.",
+          "Reaction1": "Reactive manifestation",
+          "Reaction1Effect": "Reactive manifestation"
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "5d6 void damage, doomed 2, drained 1. condition minimum locked; event reaction.",
+          "Reaction1": "Reactive manifestation",
+          "Reaction1Effect": "Reactive manifestation"
+        }
+      },
+      "memory-cairn": {
+        "Name": "Memory Cairn",
+        "Description": "Each forgotten memory places an unseen stone upon the victim until even movement becomes heavy.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "stupefied 1. numeric stage modifier.",
+          "Modifier1": "Stage penalty"
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "stupefied 2. numeric stage modifier; a residual effect can outlast the stage.",
+          "Modifier1": "Stage penalty"
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "5d6 mental damage, stupefied 2. speech blocked; numeric stage modifier.",
+          "Modifier1": "Stage penalty"
+        }
+      },
+      "world-scar-fever": {
+        "Name": "World-Scar Fever",
+        "Description": "The disease pulses in time with a wound between worlds and draws strength from every heartbeat.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "sickened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "4d6 spirit damage, drained 1. periodic effect.",
+          "Periodic1": "Recurring manifestation",
+          "Periodic1Effect": "Recurring manifestation"
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "5d6 spirit damage, drained 2. healing restricted; periodic effect.",
+          "Periodic1": "Recurring manifestation",
+          "Periodic1Effect": "Recurring manifestation"
+        }
+      },
+      "black-sun-contagion": {
+        "Name": "Black-Sun Contagion",
+        "Description": "A light without brightness spreads through the body and leaves cold shadows in living tissue.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "dazzled, drained 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "5d6 void damage, drained 1. periodic effect; a residual effect can outlast the stage.",
+          "Periodic1": "Recurring manifestation",
+          "Periodic1Effect": "Recurring manifestation"
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "6d6 void damage, drained 2, doomed 1. healing restricted; periodic effect.",
+          "Periodic1": "Recurring manifestation",
+          "Periodic1Effect": "Recurring manifestation"
+        }
+      },
+      "unperson-protocol": {
+        "Name": "Unperson Protocol",
+        "Description": "An arcane-technological erasure starts with name and voice and ends with the certainty of having ever existed.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "stupefied 1. numeric stage modifier.",
+          "Modifier1": "Stage penalty"
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "stupefied 2. speech blocked; a residual effect can outlast the stage."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "6d6 mental damage, stupefied 2, doomed 1. speech blocked; event reaction; stage expiry: stay.",
+          "Reaction1": "Reactive manifestation",
+          "Reaction1Effect": "Reactive manifestation"
+        }
+      },
+      "black-archive-seal": {
+        "Name": "Seal of the Black Archive",
+        "Description": "This unique seal protects knowledge by attempting to remove the reader from history itself.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "stupefied 1. periodic effect.",
+          "Periodic1": "Recurring manifestation",
+          "Periodic1Effect": "Recurring manifestation"
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "5d6 mental damage, stupefied 2. speech blocked; concentrate actions: flat check DC 9; periodic effect.",
+          "Gate": "Concentration interference",
+          "Periodic1": "Recurring manifestation",
+          "Periodic1Effect": "Recurring manifestation"
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "6d6 void damage, doomed 1, stupefied 2. healing restricted; event reaction; stage expiry: stay.",
+          "Reaction1": "Reactive manifestation",
+          "Reaction1Effect": "Reactive manifestation"
+        },
+        "Stage4": {
+          "Name": "Stage 4",
+          "Description": "death effect. stage expiry: end."
+        }
+      }
+    }
+  }
+}

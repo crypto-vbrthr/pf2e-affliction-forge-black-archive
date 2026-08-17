@@ -1,0 +1,52 @@
+{
+  "id": "pf2e-affliction-forge-black-archive",
+  "title": "PF2E Affliction Forge: The Black Archive",
+  "description": "A bilingual prestige library for PF2E Affliction Forge with 24 rare and experimental staged afflictions from level 1 to 20, using event reactions, periodic effects, residual persistence, stage expiry actions, and semantic Creature Forge tags.",
+  "version": "0.1.0",
+  "authors": [
+    {
+      "name": "crypto-vbrthr"
+    }
+  ],
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "8.1.2"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "pf2e-affliction-forge",
+        "type": "module",
+        "compatibility": {
+          "minimum": "0.1.63"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "languages": [
+    {
+      "lang": "de",
+      "name": "Deutsch",
+      "path": "lang/de.json"
+    },
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "license": "LICENSE",
+  "readme": "README.md"
+}
