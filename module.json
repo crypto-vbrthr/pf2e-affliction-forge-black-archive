@@ -48,5 +48,8 @@
     }
   ],
   "license": "LICENSE",
-  "readme": "README.md"
+  "readme": "README.md",
+  "url": "https://github.com/crypto-vbrthr/pf2e-affliction-forge-black-archive",
+  "manifest": "https://raw.githubusercontent.com/crypto-vbrthr/pf2e-affliction-forge-black-archive/main/module.json",
+  "download": "https://github.com/crypto-vbrthr/pf2e-affliction-forge-black-archive/releases/download/0.1.0/pf2e-affliction-forge-black-archive.zip"
 }
